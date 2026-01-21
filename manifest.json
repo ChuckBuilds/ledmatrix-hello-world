@@ -1,9 +1,11 @@
 {
   "id": "hello-world",
   "name": "Hello World",
-  "version": "1.0.1",
-  "author": "LEDMatrix Team",
+  "version": "1.0.2",
+  "author": "ChuckBuilds",
   "description": "A simple test plugin that displays a customizable message",
+  "entry_point": "manager.py",
+  "class_name": "HelloWorld Plugin",
   "category": "demo",
   "tags": [
     "demo",
@@ -25,5 +27,8 @@
   "stars": 0,
   "downloads": 0,
   "verified": true,
-  "screenshot": ""
+  "screenshot": "",
+  "config_schema": "config_schema.json",
+   "compatible_versions": [">=2.0.0"],
 }
+
